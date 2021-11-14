@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+
+*
+{
+    margin: 0;
+    font-size: 20px;
+    max-width: 1283px;
+     
+      box-sizing: border-box;
+}
+
+body{
+    background-color: #ffdd2f;
+   
+    font-family: lato, Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.head{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 100;
+    height: 75px;
+    width: 100%;
+}
+
+.logo{
+  flex: 0 1 5%;
+width: 70%;
+height: 75px;
+}
+.head-box{
+    flex: 1;
+  display: flex;
+  justify-content: flex-start;
+    margin-right: 20px;
+   
+}
+
+.head-box ul{
+    list-style-type: none;
+
+}
+.head-box ul li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 110%;
+    
+}
+.list-1 a{
+     margin-right: 20px;
+    text-decoration: none;
+        color: #fff;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.list-1 a:hover{
+    border-bottom: 3px solid #fd0;
+}
+
+.list-2 li a{
+       margin-right: 20px;
+    text-decoration: none;
+   font-weight: 400;
+    color: #fd0;
+  
+}
+.active{
+    border: 2px solid #fd0;
+    padding: 10px 22px;
+    border-radius: 27px;
+     transition: color 0.2s;
+}
+.active:hover{
+    color: rgb(138, 122, 0);
+}
+.langu select{
+    appearance: none;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 3px;
+}
+.langu label i{
+    color: #fd0;
+}
+
+
+
+.big-text h1{
+    font-size: 300%;
+    line-height: 110%;
+    width: 40%;
+    margin: 40px 10px;
+    font-weight: 500;
+
+}
+.long-text{
+    font-size: 95%;
+    font-weight: 100;
+    line-height: 140%;
+    width: 47%;
+    margin: 20px 10px ;
+    
+}
+
+.input-box{
+    display: flex;
+}
+
+
+
+.track,
+.countries{
+    border:.5px solid rgb(167, 167, 167);
+    border-radius: 20px;
+    background-color: #fff;
+    width: 19%;
+    margin-left: 10px;
+}
+
+
+
+
+.text-amount,
+.text-send{
+    font-size: 75%;
+    color: gray;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 7px;
+    font-weight: 400;
+    transition: font-size 200ms;
+}
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+}
+
+input[type="text"]#currency{
+    -webkit-appearance: none!important;
+    color: rgb(0, 102, 255);
+    text-align: right;
+    width: 75px;
+    border: none;
+    margin: 0 0 0 -7px;
+    background: white;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+input[type="number"]#amount{
+    -webkit-appearance: none!important;
+    width: 150px;
+    border: none;
+    border-right: 0px;
+    outline: none;
+    padding-left: 15px;
+    text-decoration: none;
+    
+}
+
+
+.text-send{
+   padding-left: 90px;
+    width: 100%;
+}
+
+.countries select{
+    border: none;
+    padding: 10px;
+   margin-left: 75px;
+   font-size: 85%;
+   color: rgb(24, 24, 24);
+}
+
+.send-button{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.send-button a{
+    height: 35px;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+    color: #ffdd2f;
+    background-color: black;
+    border-radius: 40px;
+    padding: 17px 40px;
+    transition: color 0.2s;
+}
+.send-button a:hover{
+    color: rgb(138, 122, 0);
+}
+
+.text-shield{
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex; 
+}
+
+.text-shield i, h3, a{
+    font-size: 110%;
+    color: black;
+
+}
+
+
+.icon-big{
+    font-size: 170%;
+}
